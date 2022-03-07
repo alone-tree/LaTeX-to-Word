@@ -1,0 +1,8 @@
+tex file
+*.blg
+*.aux
+*.bbl
+*.log
+*.out
+*.gz
+*.toc
