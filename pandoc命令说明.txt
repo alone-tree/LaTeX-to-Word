@@ -1,0 +1,9 @@
+在cmd环境中：
+
+pandoc --version # 测试pandoc是否安装
+cd /d F:\My\study\LaTeX-to-Word\tex file # /d 后面跟目标路径
+
+pandoc "final draft.tex" -t docx -o test.docx # 将tex文件以docx格式输出
+# 此方法无法输出参考文献和表格
+
+pandoc "final draft.tex" -t docx -s --toc -C -o test.docx # 加入目录和参考文献
